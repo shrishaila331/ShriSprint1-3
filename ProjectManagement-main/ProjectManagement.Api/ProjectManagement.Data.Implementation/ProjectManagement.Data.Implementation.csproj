@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ProjectManagement.Data\ProjectManagement.Data.Interfaces.csproj" />
+    <ProjectReference Include="..\ProjectManagement.Shared\ProjectManagement.Shared.csproj" />
+  </ItemGroup>
+
+</Project>
